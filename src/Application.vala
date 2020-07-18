@@ -34,6 +34,8 @@ public class MyApp : Gtk.Application {
         notify_btn.clicked.connect(()=>{
             //TODO:show notification
             var notification = new Notification (_("Hello Guys!"));
+            var icon = new GLib.ThemedIcon ("dialog-warning");
+            notification.set_icon (icon);
             notification.set_body (_("the content of notif."));
             send_notification ("com.github.abanoub-hanna.gtk-pos", notification);
             // notify_btn.sensitive = false;
