@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2019 Your Name <abanoubhannaa73@gmail.com> -->
+<component type="desktop">
+  <id>com.github.abanoub-hanna.gtk-pos</id>
+  <metadata_license>CC0</metadata_license>
+  <name>Smart POS</name>
+  <summary>Smart POS Software for Elementary OS</summary>
+  <description>
+    <p>Point-of-Sale Management Software for Elementary OS.</p>
+  </description>
+  <custom>
+  <value key="x-appcenter-color-primary">#603461</value>
+  <value key="x-appcenter-color-primary-text">rgb(255, 255, 255)</value>
+  <value key="x-appcenter-suggested-price">20</value>
+</custom>
+</component>
