@@ -18,7 +18,7 @@ msgstr ""
 
 #: src/Application.vala:29
 msgid "Click Me!"
-msgstr ""
+msgstr "اضغط هنا"
 
 #: src/Application.vala:33
 msgid "Hello World"
