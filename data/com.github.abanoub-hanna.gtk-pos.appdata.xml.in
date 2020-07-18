@@ -4,9 +4,9 @@
   <id>com.github.abanoub-hanna.gtk-pos</id>
   <metadata_license>CC0</metadata_license>
   <name>Smart POS</name>
-  <summary>Smart POS Software for Elementary OS</summary>
+  <summary>_(Smart POS Software for Elementary OS)</summary>
   <description>
-    <p>Point-of-Sale Management Software for Elementary OS.</p>
+    <p>_(Point-of-Sale Management Software for Elementary OS.)</p>
   </description>
   <custom>
   <value key="x-appcenter-color-primary">#603461</value>
