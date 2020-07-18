@@ -8,3 +8,4 @@ Icon=application-default-icon
 Terminal=false
 Type=Application
 Keywords=pos;office;sales manager;
+X-GNOME-UsesNotifications=true

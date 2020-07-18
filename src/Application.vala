@@ -26,19 +26,25 @@ public class MyApp : Gtk.Application {
         );
     }
     protected override void activate(){
-        var sample_btn = new Gtk.Button.with_label(_("Click Me!"){
-            margin = 12
-        };
-        sample_btn.clicked.connect(()=>{
-            sample_btn.label = _("Hello World");
-            sample_btn.sensitive = false;
+        var grid = new Gtk.Grid();
+        grid.orientation = Gtk.Orientation.VERTICAL;
+        grid.add (new Gtk.Label (_("Label 1")));
+        grid.add (new Gtk.Label (_("Label 2")));
+        var notify_btn = new Gtk.Button.with_label(_("Click Me!"));
+        notify_btn.clicked.connect(()=>{
+            //TODO:show notification
+            var notification = new Notification (_("Hello Guys!"));
+            notification.set_body (_("the content of notif."));
+            send_notification ("com.github.abanoub-hanna.gtk-pos", notification);
+            // notify_btn.sensitive = false;
         });
         var main_window = new Gtk.ApplicationWindow(this){
             default_height = 300,
             default_width = 300,
             title = "Smart POS"
         };
-        main_window.add(sample_btn);
+        grid.add(notify_btn);
+        main_window.add(grid);
         main_window.show_all();
     }
     public static int main(string[] args){

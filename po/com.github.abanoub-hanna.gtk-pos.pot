@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: com.github.abanoub-hanna.gtk-pos\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-18 12:06+0200\n"
+"POT-Creation-Date: 2020-07-18 13:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,12 +17,24 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/Application.vala:29
-msgid "Click Me!"
+#: src/Application.vala:31
+msgid "Label 1"
+msgstr ""
+
+#: src/Application.vala:32
+msgid "Label 2"
 msgstr ""
 
 #: src/Application.vala:33
-msgid "Hello World"
+msgid "Click Me!"
+msgstr ""
+
+#: src/Application.vala:36
+msgid "Hello Guys!"
+msgstr ""
+
+#: src/Application.vala:37
+msgid "the content of notif."
 msgstr ""
 
 #: data/com.github.abanoub-hanna.gtk-pos.desktop.in:3
