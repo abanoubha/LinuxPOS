@@ -46,8 +46,15 @@ public class MyApp : Gtk.Application {
             title = "Smart POS"
         };
         grid.add(notify_btn);
+        
+        var dark_mode_switch = new Gtk.Switch();
+        grid.add(dark_mode_switch);
+        
         main_window.add(grid);
         main_window.show_all();
+        
+        var settings = new GLib.Settings ("com.github.abanoub-hanna.gtk-pos");
+        settings.bind ("dark-mode", dark_mode_switch, "active", GLib.SettingsBindFlags.DEFAULT);
     }
     public static int main(string[] args){
         return new MyApp().run(args);

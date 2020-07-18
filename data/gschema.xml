@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/com/github/abanoub-hanna/gtk-pos/" id="com.github.abanoub-hanna.gtk-pos">
+    <key name="dark-mode" type="b">
+      <default>false</default>
+      <summary>Dark Mode</summary>
+      <description>Switch on dark mode or leave it light</description>
+    </key>
+  </schema>
+</schemalist>
