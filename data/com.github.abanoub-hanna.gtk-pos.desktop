@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Smart POS
+GenericName=Smart POS App
+Comment=Smart POS App for Elementary OS
+Categories=Utility;Education;
+Exec=com.github.abanoub-hanna.gtk-pos
+Icon=application-default-icon
+Terminal=false
+Type=Application
+Keywords=pos;office;sales manager;
