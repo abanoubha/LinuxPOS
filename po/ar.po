@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: com.github.abanoub-hanna.gtk-pos\n"
+"Project-Id-Version: com.github.abanoub-hanna.LinuxPOS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-18 13:55+0200\n"
 "PO-Revision-Date: 2020-07-18 11:54+0200\n"

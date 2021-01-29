@@ -6,7 +6,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: com.github.abanoub-hanna.gtk-pos\n"
+"Project-Id-Version: com.github.abanoub-hanna.LinuxPOS\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-18 13:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -37,31 +37,31 @@ msgstr ""
 msgid "the content of notif."
 msgstr ""
 
-#: data/com.github.abanoub-hanna.gtk-pos.desktop.in:3
-#: data/com.github.abanoub-hanna.gtk-pos.appdata.xml.in:6
+#: data/com.github.abanoub-hanna.LinuxPOS.desktop.in:3
+#: data/com.github.abanoub-hanna.LinuxPOS.appdata.xml.in:6
 msgid "Smart POS"
 msgstr ""
 
-#: data/com.github.abanoub-hanna.gtk-pos.desktop.in:4
+#: data/com.github.abanoub-hanna.LinuxPOS.desktop.in:4
 msgid "_(Smart POS App)"
 msgstr ""
 
-#: data/com.github.abanoub-hanna.gtk-pos.desktop.in:5
+#: data/com.github.abanoub-hanna.LinuxPOS.desktop.in:5
 msgid "_(Smart POS App for Elementary OS)"
 msgstr ""
 
-#: data/com.github.abanoub-hanna.gtk-pos.desktop.in:8
+#: data/com.github.abanoub-hanna.LinuxPOS.desktop.in:8
 msgid "application-default-icon"
 msgstr ""
 
-#: data/com.github.abanoub-hanna.gtk-pos.desktop.in:11
+#: data/com.github.abanoub-hanna.LinuxPOS.desktop.in:11
 msgid "pos;office;sales manager;"
 msgstr ""
 
-#: data/com.github.abanoub-hanna.gtk-pos.appdata.xml.in:7
+#: data/com.github.abanoub-hanna.LinuxPOS.appdata.xml.in:7
 msgid "_(Smart POS Software for Elementary OS)"
 msgstr ""
 
-#: data/com.github.abanoub-hanna.gtk-pos.appdata.xml.in:9
+#: data/com.github.abanoub-hanna.LinuxPOS.appdata.xml.in:9
 msgid "_(Point-of-Sale Management Software for Elementary OS.)"
 msgstr ""
