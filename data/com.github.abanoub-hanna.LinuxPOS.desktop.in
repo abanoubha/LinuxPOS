@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Linux POS
+GenericName=_(Linux POS)
+Comment=_(Linux POS for Elementary OS)
+Categories=Utility;Office;Finance;Economy;
+Exec=com.github.abanoub-hanna.LinuxPOS
+Icon=application-default-icon
+Terminal=false
+Type=Application
+Keywords=pos;office;sales manager;point-of-sale;
+X-GNOME-UsesNotifications=true

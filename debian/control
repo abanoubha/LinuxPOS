@@ -1,4 +1,4 @@
-Source: com.github.abanoub-hanna.gtk-pos
+Source: com.github.abanoub-hanna.LinuxPOS
 Section: x11
 Priority: extra
 Maintainer: Abanoub Hanna <abanoubhannaa73@gmail.com>
@@ -9,8 +9,8 @@ Build-Depends: debhelper (>= 10.5.1),
                valac (>= 0.28.0)
 Standards-Version: 3.9.3
 
-Package: com.github.abanoub-hanna.gtk-pos
+Package: com.github.abanoub-hanna.LinuxPOS
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Hello World
- This is a smart point-of-sale system written in Vala using CMake build system.
+Description: Linux POS
+ point-of-sale system written in Vala and GTK using CMake build system.

@@ -1,4 +1,4 @@
-project('com.github.abanoub-hanna.gtk-pos', 'vala', 'c')
+project('com.github.abanoub-hanna.LinuxPOS', 'vala', 'c')
 
 # Include the translations module
 i18n = import('i18n')

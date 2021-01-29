@@ -18,10 +18,13 @@
 *
 * Authored by: Author <abanoubhannaa73@gmail.com>
 */
+
+const string appId = "com.github.abanoub-hanna.LinuxPOS";
+
 public class MyApp : Gtk.Application {
     public MyApp(){
         Object (
-            application_id: "com.github.abanoub-hanna.linuxpos",
+            application_id: appId,
             flags: ApplicationFlags.FLAGS_NONE
         );
     }
@@ -37,13 +40,13 @@ public class MyApp : Gtk.Application {
             var icon = new GLib.ThemedIcon ("dialog-warning");
             notification.set_icon (icon);
             notification.set_body (_("the content of notif."));
-            send_notification ("com.github.abanoub-hanna.linuxpos", notification);
+            send_notification (appId, notification);
             // notify_btn.sensitive = false;
         });
         var main_window = new Gtk.ApplicationWindow(this){
             default_height = 300,
             default_width = 300,
-            title = "Smart POS"
+            title = "Linux POS"
         };
         grid.add(notify_btn);
         
@@ -53,7 +56,7 @@ public class MyApp : Gtk.Application {
         main_window.add(grid);
         main_window.show_all();
         
-        var settings = new GLib.Settings ("com.github.abanoub-hanna.linuxpos");
+        var settings = new GLib.Settings (appId);
         settings.bind ("dark-mode", dark_mode_switch, "active", GLib.SettingsBindFlags.DEFAULT);
     }
     public static int main(string[] args){
