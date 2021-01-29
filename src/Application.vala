@@ -21,7 +21,7 @@
 public class MyApp : Gtk.Application {
     public MyApp(){
         Object (
-            application_id: "com.github.abanoub-hanna.gtk-pos",
+            application_id: "com.github.abanoub-hanna.linuxpos",
             flags: ApplicationFlags.FLAGS_NONE
         );
     }
@@ -37,7 +37,7 @@ public class MyApp : Gtk.Application {
             var icon = new GLib.ThemedIcon ("dialog-warning");
             notification.set_icon (icon);
             notification.set_body (_("the content of notif."));
-            send_notification ("com.github.abanoub-hanna.gtk-pos", notification);
+            send_notification ("com.github.abanoub-hanna.linuxpos", notification);
             // notify_btn.sensitive = false;
         });
         var main_window = new Gtk.ApplicationWindow(this){
@@ -53,7 +53,7 @@ public class MyApp : Gtk.Application {
         main_window.add(grid);
         main_window.show_all();
         
-        var settings = new GLib.Settings ("com.github.abanoub-hanna.gtk-pos");
+        var settings = new GLib.Settings ("com.github.abanoub-hanna.linuxpos");
         settings.bind ("dark-mode", dark_mode_switch, "active", GLib.SettingsBindFlags.DEFAULT);
     }
     public static int main(string[] args){
