@@ -49,13 +49,13 @@ public class MyApp : Gtk.Application {
             title = "Linux POS"
         };
         grid.add(notify_btn);
-        
+
         var dark_mode_switch = new Gtk.Switch();
         grid.add(dark_mode_switch);
-        
+
         main_window.add(grid);
         main_window.show_all();
-        
+
         var settings = new GLib.Settings (appId);
         settings.bind ("dark-mode", dark_mode_switch, "active", GLib.SettingsBindFlags.DEFAULT);
     }
@@ -63,3 +63,5 @@ public class MyApp : Gtk.Application {
         return new MyApp().run(args);
     }
 }
+
+// added this comment to test GIT
