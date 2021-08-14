@@ -63,5 +63,3 @@ public class MyApp : Gtk.Application {
         return new MyApp().run(args);
     }
 }
-
-// added this comment to test GIT
