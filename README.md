@@ -15,3 +15,9 @@ _NOTE:_ this software is under heavy development.
 - [ ] code skeleton
 - [ ] i18n translations
 - [ ] business logic
+
+## Alternatives
+
+- [POS in Flutter](https://github.com/abanoubhannaazer/posflutter) (cross platform)
+- [POS in Go](https://github.com/abanoubhannaazer/posapp) (cross platform)
+- [POS in Vala](https://github.com/abanoubhannaazer/LinuxPOS) (this) (Linux : Vala + GTK+ 3)
